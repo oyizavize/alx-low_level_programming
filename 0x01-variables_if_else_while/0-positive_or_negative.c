@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
+ * main b - Main Entry 
  * it is positive, negative, or zero
  *
  * Return: Always return 0
@@ -12,6 +12,7 @@
 int main(void)
 {
        	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
